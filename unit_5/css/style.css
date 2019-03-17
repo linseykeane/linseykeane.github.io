@@ -1,0 +1,163 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	padding: 30px;
+	position: relative;
+	padding-top: 40px;
+	background-color: #FFED74;
+	border-bottom: 50px solid #B986E8;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	
+}
+section {
+	padding: 1.5em;
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	color: black;
+	font-size: 3em;
+}
+
+h2 {
+	color: black;
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5em;
+	padding: 0em;
+
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	}
+
+nav{
+	text-transform: uppercase;
+	font-size: .75em;
+	letter-spacing: .25em;
+	font-weight: 300;
+	line-height: 2em;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	border: 1px black solid;
+	padding: 20px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding:1.5em;
+}
+#slogan{
+	font-style: italic;
+	font-weight: 200;
+	line-height: 1.5em;
+	width: 16em;
+}
+
+#headshot{
+	width: 15%;
+	padding: 1px;
+	display: inline-block;
+	postion:right;
+}
+
+.right{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+.left{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: left;
+	color: white;
+}
+
+#about{
+	background-color: red;
+	width: 30em;
+	border: 1px black solid;
+	margin: 1em auto;
+	padding: 2em 0;
+}
+
+#employeeicon,#successicon,#skillsicon,#gradcapicon,#mailicon{
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+
+.logo {
+    width: auto;
+    max-height: 50px;
+}
+
+
+#experience {
+	background: green;
+	padding: 2em 0;
+}
+
+
+.employer{
+	color: #fdf5e6;
+}
+
+.jobtitle, #degree{
+	font-weight: bold;
+}
+
+.city,.dates{
+	font-style: italic;
+}
+
+#skills{
+	background: red;
+}
+
+.skilltype{
+	color: #fff5ee;
+}
+
+#education{
+	background: #fff5ee;
+}
+
+#school{
+	color: #fff5ee;
+}
+
+#contact{
+	background: #222222;
+
+}
+
+footer{
+	text-align: center;
+	padding:1em 0;
+}
