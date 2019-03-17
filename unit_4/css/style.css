@@ -102,9 +102,8 @@ ul{
 	float: left;
 }
 
-#headshot{
+.headshot{
 	width: 15%;
-	float: right;
 	align-content: right
 }
 
