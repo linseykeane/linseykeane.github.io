@@ -1,25 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oswald')
 
-* {margin:0;padding:0;box-sizing:border-box;}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
 
-header {
+header{
 	background-color: #c99789;
 	background-size: 100%
-	padding: 1em;
-	text-align: center;
+	padding: 2em;
 }
-body {
-	color: #ffe9dc;
+
+body{
 	font-family: 'Oswald', sans-serif;
+	color: #ffe9dc;
 	font-size: 16px;
-	line-height:1.5em;
+	line-height:1.5em; 
+}
+	
 }
 section {
 	padding: 2em 0;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family:"Amatic SC", cursive;
+	font-family: 'Amatic SC', cursive;
 	line-height: 1.5em;
 	color: #cdd3ca;
 
@@ -30,7 +37,7 @@ p{
 }
 
 nav{
-	font-family:"Oswald", sans-serif;
+	font-family:'Oswald', sans-serif;
 	background-color: #222222;
 	text-transform: uppercase;
 	text-align: center;
@@ -92,6 +99,7 @@ ul{
 	font-weight: 200;
 	line-height: 1.5em;
 	width: 16em;
+	float: left;
 }
 
 #headshot{
@@ -99,7 +107,7 @@ ul{
 	float: right;
 }
 
-.left, .right{
+.right{
 	width: 50%;
 	float: left;
 	padding:2em;
@@ -116,7 +124,7 @@ ul{
 	color: white;
 }
 
-#about{
+#About{
 	background: faf0e6;
 	color: #222222;
 }
@@ -127,7 +135,14 @@ ul{
 	margin: 0 auto;
 }
 
-#experience{
+
+.logo {
+    width: auto;
+    max-height: 50px;
+}
+
+
+#Experience{
 	background: #fdf5e6;
 }
 
