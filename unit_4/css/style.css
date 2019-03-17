@@ -1,0 +1,100 @@
+style.css
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oswald')
+header {
+	background-color: #a6e0cc;
+	padding: 1em;
+	text-align: center;
+}
+body {
+	background-color: #edebeb;
+	color: #414042;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height:1.5;
+	text-align: center;
+}
+section {
+	padding: 2em 0;
+}
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.5;
+	font-weight: normal;
+	color: #000000;
+}
+h3 {
+	color: #aaaaaa;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding: 0.5em;
+}
+h4 {
+	color: #aaaaaa;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+p{
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.important{
+	font-size: 1.25em;
+	padding: 0 0 1em;
+}
+.reversetext{
+	color: #ffffff;
+	font-weight: lighter;
+}
+a {
+	color: #00aeef;
+	text-decoration: none;
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 1.25em;
+}
+address {
+	color: #ffffff;
+	font-style: normal;
+	font-weight: lighter;
+}
+.headshots{
+	width: 15%;
+}
+.video{
+	width: 800px;
+}
+.logos{
+	width: auto;
+	height: 4em;
+	margin: 1em;
+}
+#title {
+	background: url(../images/hero_image.jpg);
+	background-size: cover;
+	height: 90vh;
+}
+#about{
+	background-color: #edebeb;
+}
+#contact{
+	background-color: #edebeb;
+}
+#resume{
+	background-color: #edebeb;
+}
+#footer{
+	background-color: #aaaaaa;
+	padding: 1em;
+}
